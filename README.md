@@ -26,8 +26,10 @@ Compatibility:
 GGUF offers broader compatibility with different hardware and frameworks.
 
 # summarizing the key differences between AWQ, GPTQ, GGML, and GGUF models:
-Method	Quantization	Focus	Hardware	Accuracy	Speed	Compatibility
-AWQ	Activation-aware	Accuracy preservation	CPU/GPU	High	Moderate	Limited
-GPTQ	GPU-optimized	Compression & speed	GPU	Moderate	High	Broad
-GGML	Older format	Storage & compatibility	CPU/GPU	Moderate	Moderate	Limited
-GGUF	Newer unified format	Storage & compatibility	CPU/GPU	High	Moderate	Broad
+| Method | Quantization           | Focus                       | Hardware | Accuracy | Speed   | Compatibility |
+|--------|------------------------|-----------------------------|----------|----------|---------|---------------|
+| AWQ    | Activation-aware        | Accuracy preservation       | CPU/GPU  | High     | Moderate| Limited       |
+| GPTQ   | GPU-optimized           | Compression & speed          | GPU      | Moderate | High    | Broad         |
+| GGML   | Older format            | Storage & compatibility     | CPU/GPU  | Moderate | Moderate| Limited       |
+| GGUF   | Newer unified format    | Storage & compatibility     | CPU/GPU  | High     | Moderate| Broad         |
+
